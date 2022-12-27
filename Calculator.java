@@ -10,6 +10,7 @@ public class Calculator {
         a = sc.nextInt();
         op = sc.next().charAt(0);
         b = sc.nextInt();
+        sc.close();
 
         switch (op) {
             case '+':
