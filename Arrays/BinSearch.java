@@ -1,4 +1,4 @@
-import java.util.*;
+//import java.util.*;
 
 public class BinSearch {
     public static int binSearch(int arr[], int key) {
