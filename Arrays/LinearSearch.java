@@ -8,7 +8,7 @@ public class LinearSearch {
                         return i;
                     }
                 }
-                return 0;
+                return -1;
     }
     public static void main(String args[]){
         Scanner sc =new Scanner(System.in);
@@ -20,7 +20,13 @@ public class LinearSearch {
         }
         System.out.println("Enter the key to find");
         int key=sc.nextInt();
-        System.out.println(key+" is found at index :"+ linSearch(nums,key));
+        if(linSearch(nums,key)==-1) {
+            System.out.println(key + " is not present");
+        }
+        else{
+            System.out.println(key+" is found at index :"+ linSearch(nums,key));
+
+        }
 
     }
     
