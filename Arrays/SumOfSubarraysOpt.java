@@ -1,16 +1,16 @@
 public class SumOfSubarraysOpt {
     public static void printSumOfSubarr(int arr[]) {
-       
-        int prefix[]=new int[arr.length];
-        prefix[0]=arr[0];
-        for(int i=1;i<prefix.length;i++) {
-            prefix[i]=prefix[i-1]+arr[i];
+
+        int prefix[] = new int[arr.length];
+        prefix[0] = arr[0];
+        for (int i = 1; i < prefix.length; i++) {
+            prefix[i] = prefix[i - 1] + arr[i];
         }
         int maxSum = Integer.MIN_VALUE;
         for (int i = 0; i < arr.length; i++) {
             for (int j = i; j < arr.length; j++) {
-                int sum = i==0 ? prefix[j] : prefix[j] - prefix[i-1];
-                
+                int sum = i == 0 ? prefix[j] : prefix[j] - prefix[i - 1];
+
                 System.out.println("sum is :" + sum);
                 if (sum > maxSum) {
                     maxSum = sum;
@@ -25,5 +25,5 @@ public class SumOfSubarraysOpt {
         int arr[] = { 1, 2, 3, 4, 5, 6 };
         printSumOfSubarr(arr);
     }
-    
+
 }
