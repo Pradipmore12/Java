@@ -9,6 +9,7 @@ public class SumOfSubarraysOpt {
         int maxSum = Integer.MIN_VALUE;
         for (int i = 0; i < arr.length; i++) {
             for (int j = i; j < arr.length; j++) {
+                //sum = prefix[end]-prefic[start-1]  if start==0 then = prefix[end]
                 int sum = i == 0 ? prefix[j] : prefix[j] - prefix[i - 1];
 
                 System.out.println("sum is :" + sum);
