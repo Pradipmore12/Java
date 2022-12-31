@@ -25,8 +25,10 @@ public class Kadanes {
     }
 
     public static void main(String args[]) {
-        // int arr[] = { -2,-3,4,-1,-2,1,5,-3 };
+        int arr[] = { -2,-3,4,-1,-2,1,5,-3 };
+       /*special case
         int arr[] = { -1, -2, -3, -4 };
+        */
         System.err.println(maxSumSubarrKadanes(arr));
     }
 
