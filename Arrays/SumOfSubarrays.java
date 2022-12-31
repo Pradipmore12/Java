@@ -11,9 +11,13 @@ public class SumOfSubarrays {
                     sum+=arr[k];
                 }
                 System.out.println("sum is :" + sum);
+                if(sum>maxSum){
+                    maxSum=sum;
+                }
             }
             System.out.println();
         }
+        System.out.println("maxSum  is :"+ maxSum);
     }
 
     public static void main(String args[]) {
