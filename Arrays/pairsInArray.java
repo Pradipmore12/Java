@@ -1,3 +1,4 @@
+//Pairs in arrays
 import java.util.*;
 
 public class pairsInArray {
