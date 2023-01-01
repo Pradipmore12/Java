@@ -1,4 +1,5 @@
 //import java.util.*;
+//Binary search arrays
 
 public class BinSearch {
     public static int binSearch(int arr[], int key) {
