@@ -1,3 +1,4 @@
+//kadanes algorithm for maximum sum of subarrays
 public class Kadanes {
     public static int maxSumSubarrKadanes(int arr[]) {
         int maxSum = Integer.MIN_VALUE;
