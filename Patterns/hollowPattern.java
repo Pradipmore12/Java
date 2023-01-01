@@ -1,5 +1,5 @@
 import java.util.*;
-
+//Hollow Pattern
 public class hollowPattern {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
