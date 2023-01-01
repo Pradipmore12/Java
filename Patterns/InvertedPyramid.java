@@ -1,5 +1,5 @@
 import java.util.*;
-
+//Inverted Pyramid
 public class InvertedPyramid {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
