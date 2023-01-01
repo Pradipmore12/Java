@@ -1,5 +1,5 @@
 import java.util.*;
-
+//Linear Search
 public class LinearSearch {
     public static int linSearch(int nums[], int key) {
         for (int i = 0; i < nums.length; i++) {
