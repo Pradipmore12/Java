@@ -1,3 +1,4 @@
+//Sum of possible subarrays
 import java.util.*;
 
 public class SumOfSubarrays {
