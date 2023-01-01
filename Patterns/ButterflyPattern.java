@@ -1,5 +1,5 @@
 import java.util.*;
-
+//ButterFly Pattern
 public class ButterflyPattern {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
