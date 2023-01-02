@@ -1,3 +1,4 @@
+//factorial using function
 import java.util.*;
 
 public class FactorialFun {
