@@ -1,5 +1,5 @@
 //Finding possible Subarrays 
-import java.util.*;
+//import java.util.*;
 
 public class subArrays {
     public static void printSubarr(int arr[]) {
