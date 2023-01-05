@@ -1,5 +1,5 @@
 import java.util.*;
-
+//Rhombus Pattern
 public class Rhombus {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
