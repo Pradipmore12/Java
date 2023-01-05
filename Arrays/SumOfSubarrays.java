@@ -1,5 +1,5 @@
 //Sum of possible subarrays
-import java.util.*;
+//import java.util.*;
 
 public class SumOfSubarrays {
     public static void printSumOfSubarr(int arr[]) {
