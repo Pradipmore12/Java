@@ -13,7 +13,7 @@ public class primeInRange {
         return true;
     }
 
-    public static void main(String args[]) {
+    public static void  main(String args[]) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the range A and B");
         int a = sc.nextInt();
