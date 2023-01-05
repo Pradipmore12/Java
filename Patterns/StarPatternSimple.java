@@ -1,5 +1,5 @@
 import java.util.*;
-
+//Simple Star pattern
 public class StarPatternSimple {
     public static void main(String args[]) {
         System.out.println("Enter the number of rows and columns");
