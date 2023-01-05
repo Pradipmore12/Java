@@ -1,5 +1,5 @@
 //Pairs in arrays
-import java.util.*;
+//import java.util.*;
 
 public class pairsInArray {
     public static void printPairs(int arr[]) {
