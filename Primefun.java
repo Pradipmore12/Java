@@ -1,5 +1,5 @@
 import java.util.*;
-
+//Prime Function using java
 public class Primefun {
     public static boolean prime(int num) {
         for (int i = 2; i < num; i++) {
