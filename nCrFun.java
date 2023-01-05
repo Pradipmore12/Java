@@ -1,5 +1,5 @@
 import java.util.*;
-
+//NcR Calculation
 public class nCrFun {
 
     public static int fact(int num) {
