@@ -1,4 +1,5 @@
-//import java.util.*;
+//
+import java.util.*;
 
 public class reverseArray {
     public static void reverse(int arr[]) {
